@@ -1,0 +1,45 @@
+.backgroundcol1{
+    background-color: rgba(9, 204, 9, 0.89);
+    font-size:larger
+}
+/* below is ID selector using # */
+#navContainer {
+    background-color: chartreuse;
+}
+/* below is class selector using "." */
+.smallText{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+#listStuff{
+    background-color: chocolate;
+    width:fit-content;
+
+}
+
+.imgContainer{
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    width: 2px;
+}
+
+img{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+
+}
+.bigTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+h2{
+    font-size:40px;
+    font-style: oblique;
+}
+.miniHead{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-style: italic;
+}
