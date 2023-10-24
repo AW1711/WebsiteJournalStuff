@@ -75,12 +75,76 @@ h2{
 #linx{
     display:flex;
     justify-content: center;
+   background-color: rgb(108, 142, 236);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    mix-blend-mode: multiply;
+
 }
 #monText{
     position: sticky;
 }
-#shortenMyText{
-    width: 470px;
-    position: relative
 
+
+.borderText{
+    border: 5px;
+    border-style:groove;
+    border-color:black;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-right:8%;
 }
+
+        
+        .week-container {
+            padding: -50%;
+            max-width: 40%; 
+            margin: 0 0 0 0;  
+            display: flex;
+            justify-content: space-between;
+        }
+
+       
+        .week-column {
+            flex: 1; 
+        }
+
+        
+        .day {
+            margin-bottom: 10px; 
+        }
+        .miniHead2{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 60px;
+            font-style: italic;
+        }
+        .journalText{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30px;
+        }
+        #prettyLinks{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30px;
+            background-color: rgba(233, 230, 66, 0.438);
+            mix-blend-mode:multiply;
+
+        }
+        .bigTitle3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            background-color: rgba(233, 230, 66, 0.438);
+            mix-blend-mode: multiply;
+        }
+        .probs-solutions{
+            background-color: grey;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30px;
+            margin: -80% 0px 0px 45%;
+        }
+        .probs-solutions2{
+            background-color: grey;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30px;
+            margin: 10% 0px 0px 45%;
+            
+        }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Layout</title>
+    <style>
+        /* Container styles */
+        .week-container {
+            max-width: 800px; /* or whatever maximum width you want */
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Column styles */
+        .week-column {
+            flex: 1; /* equally distribute space between columns */
+        }
+
+        /* Day styles */
+        .day {
+            margin-bottom: 10px; /* spacing between days */
+        }
+    </style>
+</head>
+<body>
+    <div class="week-container">
+        <!-- Left Column -->
+        <div class="week-column">
+            <div class="day">
+                <strong>Monday:</strong>
+                <p>text text</p>
+            </div>
+            <div class="day">
+                <strong>Tuesday:</strong>
+                <p>text</p>
+            </div>
+            <div class="day">
+                <strong>Wednesday:</strong>
+                <p>textxt</p>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="week-column">
+            <div class="day">
+                <strong>Thursday:</strong>
+                <p>texttext</p>
+            </div>
+            <div class="day">
+                <strong>Friday:</strong>
+                <p>text</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
